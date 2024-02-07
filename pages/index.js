@@ -36,7 +36,7 @@ const Home = () => {
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
             
-I enjoy solving problems and thrive in fast-paced environments. I&apos;m always eager to learn new technologies and keep up with industry trends to provide the best solutions for clients
+I enjoy solving problems and thrive in fast-paced environments. I&apos;m always eager to learn new technologies and keep up with industry trends to provide the best solutions for clients.
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
