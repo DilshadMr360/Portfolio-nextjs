@@ -6,20 +6,17 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  // FaWordpress,
   FaFigma,
   FaLaravel,
   FaNodeJs,
   // FaPython,
   FaFlask,
-  FaVuejs,
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
   SiFramer,
   SiAdobexd,
-  SiAdobephotoshop,
 } from "react-icons/si";
 
 
@@ -45,7 +42,6 @@ const aboutData = [
           <FaLaravel key="laravel" />,
           <FaNodeJs key="nodejs" />,
           <FaFlask key="python" />,
-          <FaVuejs key="vuejs" />
         ],
       },
       {
@@ -54,67 +50,32 @@ const aboutData = [
       },
     ],
   },
-  {
-    title: 'Certificates',
-    info: [
-      {
-        title: 'Python for Beginner - CSE Department, University of Moratuwa',
-        stage: '2022',
-      },
-      {
-        title: 'Web Design for Beginner - CSE Department, University of Moratuwa',
-        stage: '2022',
-      },
-      {
-        title: 'Intro Cybersecurity - Cisco',
-        stage: '2021',
-      },
-      {
-        title: 'React Basic - HackerRank',
-        stage: '2021',
-      },
-      {
-        title: 'SQL Basic - HackerRank',
-        stage: '2021',
-      },
-      {
-        title: 'Scrum Foundation Professional Certificate - SFPC',
-        stage: '2021',
-      }
-    ],
-  },
+  
   {
     title: 'experience',
     info: [
       {
-        title: 'Junior Software Developer - Sterling BPO Solutions',
-        stage: '2023 Aug - Present',
+        title: 'Associate Software Engineer - Sterling BPO Solutions',
+        stage: '2023 April - Present',
       },
       {
-        title: 'Intern Software Engineer - Parallax Technologies',
-        stage: '2023 Jan - 2023 July',
+        title: 'Intern Software Engineer - Sterling BPO Solutions ',
+        stage: '2023 March - 2022 October',
       }
     ],
   },
   {
-    title: 'credentials',
+    title: 'education',
     info: [
       {
-        title: 'Undergraduate- Institute Of Technology, University of Moratuwa',
-        stage: '2019 - 2023',
+        title: 'BSc (Hons) in Software Engineering Cardiff University',
+        stage: '2023 - 2024',
       },
       {
-        title: 'A/L - Science - Ananda Collage',
-        stage: '2015 - 2018',
+        title: 'HND in Computing & Software Engineering ICBT Campus',
+        stage: '2019 - 2021',
       }
-      // {
-      //   title: 'Computer Science Diploma - AV Technical Institute',
-      //   stage: '2009',
-      // },
-      // {
-      //   title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-      //   stage: '2006',
-      // },
+     
     ],
   },
 ];
@@ -139,7 +100,7 @@ const About = () => {
       initial="hidden"
       animate="show"
       exit='hidden'
-      class="hidden xl:flex absolute bottom-0 -left-[370px]"
+      class="hidden xl:flex absolute bottom-0 -left-[70px]"
     >
       <Avatar />
     </motion.div>

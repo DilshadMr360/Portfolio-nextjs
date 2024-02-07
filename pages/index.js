@@ -24,7 +24,7 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='h1'>Hello, I&apos;m Ravindu<br/>{' '}
+            className='h1'>Hello, I&apos;m Dilshad<br/>{' '}
           <span className='text-accent'> Full Stack Developer</span>
           </motion.h1>
           {/* subtitile */}
@@ -35,7 +35,8 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            I am a problem solver by nature and enjoy working in a fast-paced, dynamic environment. I am always eager to learn new technologies and stay up-to-date with industry trends to bring the best solutions to clients.
+            
+I enjoy solving problems and thrive in fast-paced environments. I'm always eager to learn new technologies and keep up with industry trends to provide the best solutions for clients
           </motion.p>
           {/* btn */}
           <div className='flex justify-center xl:hidden relative'>
