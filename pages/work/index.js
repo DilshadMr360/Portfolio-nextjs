@@ -31,7 +31,7 @@ const Work = () => {
               exit='hidden'
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              From captivating user interfaces to robust backend solutions, each project reflects my commitment to excellence and passion for delivering cutting-edge software solutions.
+              Each project I undertake showcases my dedication to quality and my enthusiasm for delivering modern software solutions, whether it's through engaging user interfaces or reliable backend systems.
             </motion.p>
           </div>
 
