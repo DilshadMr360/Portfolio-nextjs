@@ -16,23 +16,25 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project2.png',
-          link: 'https://github.com/RavinduISHA/Portfolio-nextjs',
+          path: '/project01.png',
+          link: 'https://portal.importauthority.com.au/login',
         },
         {
           title: 'title',
-          path: '/project6.png',
-          link: 'https://github.com/RavinduISHA/MyChannelling-Application'
+          path: '/project3.png',    
+          // link: 'https://github.com/DilshadMr360/Portfolio-nextjs',
+          link: 'https://carhistory.infinitycode.com.au/',
         },
         {
           title: 'title',
-          path: '/project4.png',
-          link: 'https://ravinduish.vercel.app/',
+          path: '/project5.png',
+          link: 'https://carrental.infinitycode.com.au/'
         },
-        {
+
+         {
           title: 'title',
-          path: '/project0.png',
-          link: 'https://github.com/RavinduISHA/Memories?tab=readme-ov-file'
+          path: '/project1.png',
+          link: 'https://8848portal.infinitycode.com.au/'
         },
       ],
     },
@@ -40,22 +42,10 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project5.png',
-          link: 'https://carrental.infinitycode.com.au/'
+          path: '/Projectone.png',
+          link: ''
         },
-        {
-          title: 'title',
-          path: '/project1.png',
-          link: 'https://8848portal.infinitycode.com.au/'
-        },
-        // {
-        //   title: 'title',
-        //   path: '/thumb2.jpg',
-        // },
-        // {
-        //   title: 'title',
-        //   path: '/thumb3.jpg',
-        // },
+    
       ],
     },
   ],
