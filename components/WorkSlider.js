@@ -42,7 +42,7 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project3.png',
+          path: '/project01.png',
           link: 'https://carhistory.infinitycode.com.au/'
         },
         {
