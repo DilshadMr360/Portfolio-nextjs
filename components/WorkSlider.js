@@ -40,11 +40,11 @@ const workSlides = {
     // },
     {
       images: [
-        // {
-        //   title: 'title',
-        //   path: '/project01.png',
-        //   link: ''
-        // },
+        {
+          title: 'title',
+          path: '/project3.png',
+          link: ''
+        },
         {
           title: 'title',
           path: '/project3.png',
