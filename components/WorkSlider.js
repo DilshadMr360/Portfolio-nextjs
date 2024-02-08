@@ -43,22 +43,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/project3.png',
-          link: ''
+          link: 'https://portal.importauthority.com.au/login'
         },
         {
           title: 'title',
           path: '/project3.png',
-          link: ''
+          link: 'https://carhistory.infinitycode.com.au/'
         },
         {
           title: 'title',
           path: '/project5.png',
-          link: ''
+          link: 'https://carrental.infinitycode.com.au/'
         },
         {
           title: 'title',
           path: '/project1.png',
-          link: ''
+          link: 'https://8848portal.infinitycode.com.au/'
         },
     
       ],
