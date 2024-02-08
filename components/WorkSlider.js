@@ -12,34 +12,74 @@ import Image from "next/image";
 // data
 const workSlides = {
   slides: [
+    // {
+    //   images: [
+    //     {
+    //       title: 'title',
+    //       path: '/project01.png',
+    //       link: 'https://portal.importauthority.com.au/login',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/project3.png',    
+    //       // link: 'https://github.com/DilshadMr360/Portfolio-nextjs',
+    //       link: 'https://carhistory.infinitycode.com.au/',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/project5.png',
+    //       link: 'https://carrental.infinitycode.com.au/'
+    //     },
+
+    //      {
+    //       title: 'title',
+    //       path: '/project1.png',
+    //       link: 'https://8848portal.infinitycode.com.au/'
+    //     },
+    //   ],
+    // },
     {
       images: [
         {
           title: 'title',
-          path: '/project01.png',
-          link: 'https://portal.importauthority.com.au/login',
+          path: '/Projectone.png',
+          link: ''
         },
         {
           title: 'title',
-          path: '/project3.png',    
-          // link: 'https://github.com/DilshadMr360/Portfolio-nextjs',
-          link: 'https://carhistory.infinitycode.com.au/',
+          path: '/Projectone.png',
+          link: ''
         },
         {
           title: 'title',
-          path: '/project5.png',
-          link: 'https://carrental.infinitycode.com.au/'
+          path: '/Projectone.png',
+          link: ''
         },
-
-         {
+        {
           title: 'title',
-          path: '/project1.png',
-          link: 'https://8848portal.infinitycode.com.au/'
+          path: '/Projectone.png',
+          link: ''
         },
+    
       ],
     },
     {
       images: [
+        {
+          title: 'title',
+          path: '/Projectone.png',
+          link: ''
+        },
+        {
+          title: 'title',
+          path: '/Projectone.png',
+          link: ''
+        },
+        {
+          title: 'title',
+          path: '/Projectone.png',
+          link: ''
+        },
         {
           title: 'title',
           path: '/Projectone.png',
