@@ -42,8 +42,8 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/project01.png',
-          link: 'https://portal.importauthority.com.au/login'
+          path: '/project3.png',
+          link: 'https://carhistory.infinitycode.com.au/'
         },
         {
           title: 'title',
