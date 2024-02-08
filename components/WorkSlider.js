@@ -40,37 +40,37 @@ const workSlides = {
     // },
     {
       images: [
-        // {
-        //   title: 'title',
-        //   path: '/project01.png',
-        //   link: ''
-        // },
         {
           title: 'title',
-          path: '/project3.png',
+          path: '/Projectone.png',
           link: ''
         },
         {
           title: 'title',
-          path: '/project5.png',
+          path: '/Projectone.png',
           link: ''
         },
         {
           title: 'title',
-          path: '/project1.png',
+          path: '/Projectone.png',
+          link: ''
+        },
+        {
+          title: 'title',
+          path: '/Projectone.png',
           link: ''
         },
     
       ],
     },
-    {
+     {
       images: [
         {
           title: 'title',
           path: '/Projectone.png',
           link: ''
         },
-     
+    
     
       ],
     },
