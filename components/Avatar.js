@@ -6,6 +6,7 @@ const Avatar = () => {
       <Image src={'/Dil1.JPG'} width={440} height={200} alt="" className="translate-z-0" />
     </div>
   );
+
 };
 
 export default Avatar;

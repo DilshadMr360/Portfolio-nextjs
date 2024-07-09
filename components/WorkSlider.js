@@ -12,30 +12,55 @@ import Image from "next/image";
 // data
 const workSlides = {
   slides: [
+    // {
+    //   images: [
+    //     {
+    //       title: 'title',
+    //       path: '/project01.png',
+    //       link: 'https://portal.importauthority.com.au/login',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/project3.png',    
+    //       // link: 'https://github.com/DilshadMr360/Portfolio-nextjs',
+    //       link: 'https://carhistory.infinitycode.com.au/',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/project5.png',
+    //       link: 'https://carrental.infinitycode.com.au/'
+    //     },
+
+    //      {
+    //       title: 'title',
+    //       path: '/project1.png',
+    //       link: 'https://8848portal.infinitycode.com.au/'
+    //     },
+    //   ],
+    // },
     {
       images: [
         {
           title: 'title',
-          path: '/project01.png',
-          link: 'https://portal.importauthority.com.au/login',
+          path: '/project.png',
+          link: 'https://portal.importauthority.com.au/login'
         },
         {
           title: 'title',
-          path: '/project3.png',    
-          // link: 'https://github.com/DilshadMr360/Portfolio-nextjs',
-          link: 'https://carhistory.infinitycode.com.au/',
+          path: '/project3.png',
+          link: 'https://carhistory.infinitycode.com.au/'
         },
         {
           title: 'title',
           path: '/project5.png',
           link: 'https://carrental.infinitycode.com.au/'
         },
-
-         {
+        {
           title: 'title',
           path: '/project1.png',
           link: 'https://8848portal.infinitycode.com.au/'
         },
+    
       ],
     },
     {
@@ -45,6 +70,7 @@ const workSlides = {
           path: '/Projectone.png',
           link: ''
         },
+     
     
       ],
     },
