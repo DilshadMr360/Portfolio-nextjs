@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const Avatar = () => {
-  return <div className="hidden xl:flex xl:max-w-none">
-    <Image src={'/mypic5.jpg'} width={400} height={450} alt="" className="translate-z-0 "/>
-  </div>;
+  return (
+    <div className="hidden h-full xl:flex xl:items-center xl:justify-center xl:max-w-none">
+      <Image src={'/Dil1.JPG'} width={440} height={200} alt="" className="translate-z-0" />
+    </div>
+  );
 };
 
 export default Avatar;

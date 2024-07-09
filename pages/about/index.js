@@ -92,7 +92,7 @@ import CountUp from "react-countup";
 const About = () => {
   const [ index, setIndex ] = useState(0);
   console.log(index);
-  return <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+  return <div className="h-full py-32 text-center bg-primary/30 xl:text-left">
     <Circles />
     {/* avatrImg */}
     <motion.div
@@ -102,11 +102,10 @@ const About = () => {
       exit='hidden'
       class="hidden xl:flex absolute bottom-0 -left-[70px]"
     >
-      <Avatar />
     </motion.div>
-    <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+    <div className="container flex flex-col items-center h-full mx-auto xl:flex-row gap-x-6">
       {/* text */}
-      <div className="flex-1 flex flex-col justify-center">
+      <div className="flex flex-col justify-center flex-1">
         <motion.h2
           variants={fadeIn('right', 0.2)}
           initial="hidden"
@@ -128,19 +127,19 @@ const About = () => {
           initial="hidden"
           animate="show"
           exit='hidden'
-          className="hidden md:flex md:max-w-none mx-auto xl:mx-0 mb-10"
+          className="hidden mx-auto mb-10 md:flex md:max-w-none xl:mx-0"
         >
           <div className="flex flex-1 xl:gap-x-6">
             {/* experience */}
             <div className="relative flex-0 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-              <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+              <div className="mb-2 text-2xl font-extrabold xl:text-4xl text-accent">
                 <CountUp start={0} end={1} duration={10} /> +
               </div>
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">Years of Experience</div>
             </div>
             {/* project */}
             <div className="relative flex-0 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-              <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+              <div className="mb-2 text-2xl font-extrabold xl:text-4xl text-accent">
                 <CountUp start={0} end={4} duration={10} /> +
               </div>
               <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[140px]">Real Wrold Project Conribution</div>
@@ -157,7 +156,7 @@ const About = () => {
         exit='hidden'
         className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
       >
-        <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
+        <div className="flex mx-auto mb-4 gap-x-4 xl:gap-x-8 xl:mx-0">
         {aboutData.map((item, itemIndex) => (
           <div
             key={itemIndex}  // Add this line to provide a unique key
@@ -173,15 +172,15 @@ const About = () => {
           </div>
         ))}
         </div>
-        <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
+        <div className="flex flex-col items-center py-2 xl:py-6 gap-y-2 xl:gap-y-4 xl:items-start">
           {aboutData[index].info.map((item, itemIndex) => {
             return (
               <div
                 key={itemIndex}
-                className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60"
+                className="flex flex-col items-center flex-1 md:flex-row max-w-max gap-x-2 text-white/60"
                 >
                 {/* title */}
-                <div className="font-light mb-2 md:mb-0">{item.title}</div>
+                <div className="mb-2 font-light md:mb-0">{item.title}</div>
                 <div className="hidden md:flex">-</div>
                 <div>{item.stage}</div>
                 <div className="flex gap-x-4">
