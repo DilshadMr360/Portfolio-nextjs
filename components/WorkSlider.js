@@ -70,6 +70,18 @@ const workSlides = {
           path: '/Projectone.png',
           link: ''
         },
+        {
+          title: 'title',
+          path: '/project7.png',
+          link: 'https://staging.jplauto.com.au/'
+        },
+        {
+          title: 'title',
+          path: '/project6.png',
+          link: ''
+        },
+
+        
      
     
       ],
@@ -93,17 +105,17 @@ const WorkSlider = () => {
       {
         workSlides.slides.map((slide, index) => {
           return <SwiperSlide key={index}>
-           <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
+           <div className="grid grid-cols-2 grid-rows-2 gap-4  cursor-pointer md:h-[400px] ">
             {slide.images.map((image, index) => (
-              <div key={index} className="relative rounded-lg overflow-hidden flex items-center justify-center group">
+              <div key={index} className="relative flex items-center justify-center overflow-hidden rounded-lg group">
                 <a href={image.link} target="_blank" rel="noopener noreferrer">
-                    <div className="flex items-center justify-center relative overflow-hidden">
+                    <div className="relative flex items-center justify-center overflow-hidden">
                       {/* image */}
                       <Image src={image.path} alt={image.title} width={500} height={300} />
                       {/* overlay */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#38c7eb] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
                       {/* title */}
-                      <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">
+                      <div className="absolute bottom-0 transition-all duration-300 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20">
                         <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2rem]">
                           {/* part 1 */}
                           <div className="delay-100">LIVE</div>
